@@ -50,6 +50,23 @@ advance**. Before explaining something:
 If it is unclear whether I have seen a concept yet, ask rather than
 lecture.
 
+## Getting the next exercise
+
+Track order is in `EXERCISES.md` (concept section, then practice section).
+The next exercise is the one after the last downloaded directory.
+
+```bash
+exercism download --track=rust --exercise=<slug>
+```
+
+The CLI workspace is already set to this repo, so it lands in `rust/<slug>`
+with `Cargo.toml`, `src/lib.rs`, `tests/`, `README.md`, `HELP.md`.
+
+- Do not download exercises ahead of the current one unless I ask.
+- Do not run `--force` over an exercise I have started work on.
+- Submitting is my call, not yours: `exercism submit --track=rust
+  --exercise=<slug> rust/<slug>/src/lib.rs`
+
 ## Working style
 
 - One concept at a time. Do not dump the full topic in one message.
