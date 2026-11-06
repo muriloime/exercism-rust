@@ -1,0 +1,5 @@
+# Agent session logs
+.pi/
+
+# Rust build artifacts
+target/
